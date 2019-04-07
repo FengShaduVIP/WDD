@@ -1,0 +1,21 @@
+<!--pages/myhome/myhome.wxml-->
+<view class='page'>
+  <view class="header">
+    <van-cell>
+      <van-row>
+        <van-col span="16">
+          <view class="userinfo">
+            <open-data class="userinfo-avatar" type="userAvatarUrl"></open-data> 
+            <open-data class="userinfo-nickname" type="userNickName" lang="zh_CN"></open-data>
+          </view>
+        </van-col>
+        <van-col span="4"><view>收货地址</view></van-col>
+        <van-col span="2"><van-icon name="arrow" /></van-col>
+      </van-row>
+    </van-cell>
+  </view>
+  
+  <van-row gutter="20">
+    <van-cell title="单元格" icon="location-o" size="large" />
+  </van-row>
+</view>

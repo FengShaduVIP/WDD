@@ -1,0 +1,11 @@
+{
+  "usingComponents" : {
+    "van-notice-bar": "/zanui/notice-bar/index",
+    "van-cell-group": "/zanui/cell-group/index",
+    "van-icon": "/zanui/icon/index",
+    "van-row": "/zanui/row/index",
+    "van-col": "/zanui/col/index",
+    "van-cell": "/zanui/cell/index"
+  }
+}
+

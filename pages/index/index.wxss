@@ -1,21 +1,107 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+page{
+  background-color: #F8F8F8;
+  font-size: 16px;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.page__hd{
+  margin: 10rpx 0;
+  height: 350rpx;
+  width: 100%;
+  background-color: #fcc707;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
+.placeholder{
+  margin: 0 auto;
+  width: 665rpx;
+  height: 610rpx;
+  text-align: center;
+}
+.placeholder2{
+  margin: 5px;
+  text-align: center;
+  background-color: #EBEBEB;
+  height: 20em;
+  color: #cfcfcf;
+}
+
+
+.container-out {
+  position: absolute;
+  height: 600rpx;
+  width: 650rpx;
+  background-color: #de2a2c;
+  border-radius: 33rpx;
+  box-shadow:3px 5px 5px rgb(83, 54, 27);
+}
+ 
+.container-in {
+  position: absolute;
+  width: 580rpx;
+  height: 530rpx;
+  background-color: #fcc707;
+  border-radius: 36rpx;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow:1px 2px 2px rgb(78, 77, 75);
+}
+ 
+/**小圆球
+box-shadow: inset 3px 3px 3px #fff2af;*/
+.circle {
+  position:absolute;
+  display: block;
   border-radius: 50%;
+  height: 20rpx;
+  width: 20rpx;
+}
+.content-out {
+  top: 12rpx;
+  left: 12rpx;
+  position: absolute;
+  height: 150rpx;
+  width: 166.6666rpx;
+  background-color: #f5f0fc;
+  border-radius: 15rpx;
+  box-shadow: 0px 5px 0px #e7930a;
+}
+.award-image{
+  margin:10rpx; 
+  height:88%;
+  width:90%;
+}
+.start-btn {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 15rpx;
+  height: 150rpx;
+  width: 166.6666rpx;
+  background-color: #ffe400;
+  box-shadow: 0 5px 0 #e7930a;
+  color: #f6251e;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bolder;
+  line-height: 150rpx;
+}
+.award-num{
+  font-size: 1.25em;
+  line-height: 2em;
+  margin: 35rpx auto;
+  background-color: #de2a2c;
+  height: 100rpx;
+  width: 400rpx;
+  text-align: center;
 }
 
-.userinfo-nickname {
-  color: #aaa;
-}
 
-.usermotto {
-  margin-top: 200px;
+.award-list{
+  text-align: center;
+  padding: 40rpx;
 }

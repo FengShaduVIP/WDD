@@ -1,0 +1,31 @@
+/* pages/myhome/myhome.wxss */
+.header{
+  margin: 5rpx 0;
+  width: 100%;
+  height: 280rpx;
+  background-color: rgb(248, 195, 195);
+}
+
+.userinfo {
+  border-radius:15px;
+  display: flex;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+}
+.img-head{
+  border-radius: 50px;
+}
+.userinfo-nickname {
+  line-height: 2em;
+  color: #aaa;
+}
+.btn-getuserinfo {
+  border-radius:15px;
+  background-color:red;
+  font-size: 0.75em;
+  color: rgb(255, 255, 255);
+}

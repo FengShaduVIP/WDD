@@ -1,0 +1,35 @@
+<!--pages/wdd/wdd.wxml-->
+<view class='page'>
+  <van-row>
+    <view class='wdd-head'>
+      广告区域
+    </view>
+  </van-row>
+  <van-row>
+    <view class='wdd-ad-panel' bindtap="showAdView">
+      <van-panel use-header-slot use-footer-slot>
+        <view slot="header" class='panel-header'>
+          我是header
+          <van-col span="">
+          </van-col>
+        </view>
+        <view class='wdd-ad-comment'>
+          <view class='wdd-ad-img'>我是图片</view>
+          <view class='wdd-ad-txt'>我是内容我是内容我是内容我是内容我是内容我是内容</view>
+        </view>
+        <view slot="footer">
+          footer
+          <van-button size="small">按钮</van-button>
+        </view>
+      </van-panel>
+    </view>
+  </van-row>
+  <van-row>
+    <view class='wdd-ad-panel'>
+      <van-panel title="标题" status="状态">
+        <view class='wdd-ad-img'>我是图片</view>
+        <view class='wdd-ad-comment'>我是内容我是内容我是内容我是内容我是内容我是内容</view>
+      </van-panel>
+    </view>
+  </van-row>
+</view>

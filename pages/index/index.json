@@ -1,3 +1,12 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "van-action-sheet": "/zanui/action-sheet/index",
+    "van-dialog": "/zanui/dialog/index",
+    "van-button": "/zanui/button/index",
+    "van-field": "/zanui/field/index",
+    "van-popup": "/zanui/popup/index",
+    "van-card": "/zanui/card/index",
+    "van-row": "/zanui/row/index",
+    "van-col": "/zanui/col/index"
+  }
 }

@@ -1,12 +1,39 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/wdd/wdd",
+    "pages/myhome/myhome",
+    "pages/adview/adview"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "BaoMi花❀",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "img/index/index-active.png",
+        "iconPath": "img/index/index.png",
+        "pagePath": "pages/wdd/wdd",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/index/award-active.png",
+        "iconPath": "img/index/award.png",
+        "pagePath": "pages/index/index",
+        "text": "抽奖"
+      },
+      {
+        "selectedIconPath": "img/index/myhome-active.png",
+        "iconPath": "img/index/myhome.png",
+        "pagePath": "pages/myhome/myhome",
+        "text": "我的"
+      }
+    ]
   }
 }
