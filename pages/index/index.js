@@ -5,7 +5,7 @@ const app = getApp()
 
 Page({
   data: {
-    isHavePhoneNum:false,
+    isHavePhoneNum:true,
     phoneNum: null,//输入的手机号
     duoduoNum:null,//微商识别码
     textValue: null,

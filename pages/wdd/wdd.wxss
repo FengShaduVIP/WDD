@@ -7,24 +7,32 @@
   margin: 10rpx 20rpx;
   height: 200rpx;
   width: 95%;
-  background-color: burlywood;
+  background-color: rgb(238, 234, 229);
 }
 .wdd-ad-panel{
-  width: 96%;
-  padding: 2%;
-  height: 45%;
+  width:92%;
+  margin:10px auto;
+  background: cadetblue;
+  border:1px solid rgb(243, 240, 240);
+  box-shadow: darkgrey 5px 5px 5px 2px ;
 }
 .wdd-ad-img{
-  height: 170rpx;
+  height: 300rpx;
   width: 100%;
 }
 .wdd-ad-comment{
-  height: 300rpx;
+  height: 400rpx;
   width: 100%;
+}
+.wdd-ad-txt{
+  height: 100rpx;
 }
 .panel-header{
   margin:auto 0;
   width: 100%;
   height: 80rpx;
-  background-color: #f86622;
+  background-color: #fcf6f4;
+}
+.wdd-ad-footer{
+  width: 100%;
 }

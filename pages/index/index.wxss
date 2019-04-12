@@ -105,3 +105,11 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
   text-align: center;
   padding: 40rpx;
 }
+
+.award-card{
+  width:92%;
+  margin:10px auto;
+  background: cadetblue;
+  border:1px solid rgb(243, 240, 240);
+  box-shadow: darkgrey 5px 5px 5px 2px ;
+}

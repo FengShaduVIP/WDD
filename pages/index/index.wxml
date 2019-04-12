@@ -30,41 +30,41 @@
     <view class='award-list'>
       - - - - - - - - - - 奖品列表 - - - - - - - - - - 
     </view>
-    <van-card
-      num="2"
-      price="2.00"
-      desc="描述信息"
-      title="商品标题"
-      thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
-    />
-    <van-card
-      num="2"
-      price="2.00"
-      desc="描述信息"
-      title="商品标题"
-      thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
-    />
-    <van-card
-      num="2"
-      price="2.00"
-      desc="描述信息"
-      title="商品标题"
-      thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
-    />
-    <van-card
-      num="2"
-      price="2.00"
-      desc="描述信息"
-      title="2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男"
-      thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
-    />
-    <van-card
-      num="2"
-      price="2.00"
-      desc="2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男"
-      title="商品标题"
-      thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
-    />
+    <view class='award-card'>
+      <van-card
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
+      />
+    </view>
+    <view class='award-card'>
+      <van-card
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
+      />
+    </view>
+    <view class='award-card'>
+      <van-card
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
+      />
+    </view><view class='award-card'>
+      <van-card
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ 'https://img.yzcdn.cn/upload_files/2017/07/02/af5b9f44deaeb68000d7e4a711160c53.jpg' }}"
+      />
+    </view>
   </van-row>
 
 
